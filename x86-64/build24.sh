@@ -62,6 +62,24 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
+# DDNS 动态域名
+PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
+# UPnP 端口映射
+PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+# 局域网文件共享
+PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+# 流量监控
+PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
+# 断网自动重启
+PACKAGES="$PACKAGES luci-i18n-watchcat-zh-cn"
+# SQM QoS 流控
+PACKAGES="$PACKAGES luci-i18n-sqm-zh-cn"
+# 网络唤醒
+PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
+# NAT 穿透
+PACKAGES="$PACKAGES luci-i18n-natmap-zh-cn"
+# BT 下载
+PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
